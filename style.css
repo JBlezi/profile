@@ -26,41 +26,60 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: normal;
+    width: 700px;
+    margin: 10px auto;
+    color: whitesmoke;
   }
 
 h1 {
   color:aqua;
   font-family: 'Koulen', cursive;
-  font-size: 18px;
+  font-size: 24px;
   line-height: normal;
 }
 
 h2 {
-  color:blueviolet;
+  color:whitesmoke;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   line-height: normal;
+  text-shadow: 1px 1px 1px aqua;
 }
 
 a {
-  color:deeppink;
+  color: whitesmoke;
   text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+.button:hover {
+  color: whitesmoke;
+  border-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 a:hover {
-  color: maroon
+  color: whitesmoke;
 }
 
 .container {
  background: linear-gradient(#e66465, #9198e5);
  border: solid black;
  border-radius: 15px;
- box-shadow: 3px 3px 3px black;
- margin: 0 auto;
+ box-shadow: 2px 2px 2px black;
+ margin: 5px auto;
+ text-align: center;
+ padding: 10px 10px;
 }
+
+.card {
+  padding: 10px;
+}
+
 
 img {
   border-radius: 50%;
+  border: 2px solid aqua;
 }
 
 ul > li {
@@ -73,7 +92,23 @@ ul {
   padding-left: 0px;
 }
 
+.button {
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+  width: 150px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+p {
+  font-size: 18px;
+}
+
+div.button {
+  margin: 20px auto 0;
+}
+
+
 /* Add cool touches to your cards using CSS properties like background, border, border-radius and box-shadow.
   Keep it simple, with white background and subtle radius and shadows (as you saw in the lecture). */
-
-  /* comment for extra push */
